@@ -8,7 +8,8 @@
              benchmark,
              fnv_slow,
              fnv_terrible,
-             fnv_nif
+             fnv_nif,
+             ef_bench
             ]},
   {registered, []},
   {applications, [
