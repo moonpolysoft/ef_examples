@@ -5,7 +5,6 @@
 -define(OFFSET_BASIS, 2166136261).
 -define(FNV_PRIME, 16777619).
 
-%32 bit fnv.  magic numbers ahoy
 hash(Term) when is_binary(Term) ->
   fnv_int(?OFFSET_BASIS, Term);
 

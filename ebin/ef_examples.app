@@ -7,8 +7,8 @@
              ef_examples_sup,
              benchmark,
              fnv_slow,
-             fnv_terrible,
              fnv_nif,
+             fnv_offset,
              ef_bench
             ]},
   {registered, []},
